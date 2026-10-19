@@ -329,3 +329,9 @@ textarea { min-height: 150px; resize: vertical; }
   * { transition-duration: .01ms !important; }
 }
 .no-js .reveal { opacity: 1; transform: none; }
+
+/* Real photography */
+.photo img { display: block; }
+.gallery .photo { aspect-ratio: auto; background: var(--cream); }
+.gallery .photo img { height: auto; }
+.hero__visual .photo img { object-position: 50% 30%; }
